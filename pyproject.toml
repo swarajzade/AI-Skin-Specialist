@@ -9,10 +9,15 @@ authors = [
 requires-python = ">=3.12"
 dependencies = [
     "anthropic>=2.10.0",
+    "deepgram-sdk>=7.19.0",
+    "gradio>=6.32.0",
     "groq>=1.7.0",
     "openai>=3.55.0",
     "opencv-python>=5.1.0.95",
+    "pyaudio>=0.2.14",
+    "pydub>=0.25.1",
     "python-dotenv>=1.2.4",
+    "speechrecognition>=3.17.0",
 ]
 
 [project.scripts]
